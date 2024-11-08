@@ -1,11 +1,9 @@
 
-# Microatividade 4 - Estruturas de Repetição (for)
+# estruturas_repeticao2.py
 
-# Iterando sobre uma string
-texto = "Olá, laço for."
+texto = 'Olá, laço for.'
 for item in texto:
-    print("Caractere:", item)
+    print(f'Caractere: {item}')
 
-# Iterando sobre um intervalo de números
-for num in range(1, 11):
-    print("Número do intervalo:", num)
+for numero in range(1, 11):
+    print(f'Número do intervalo: {numero}')

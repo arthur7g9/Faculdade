@@ -1,18 +1,15 @@
 
-# Microatividade 1 - Estruturas de Condição (if, else)
+# estruturas_condicao1.py
 
-# Criando uma variável de temperatura
 temperatura = 29
-
-# Condição if-else para verificar a temperatura
 if temperatura < 30:
-    print("A temperatura hoje está amena")
+    print('A temperatura hoje está amena')
 else:
-    print("Hoje está fazendo calor")
+    print('Hoje está fazendo calor')
 
-# Alterando a variável para testar outra condição
+# Alteração para o valor 31
 temperatura = 31
 if temperatura < 30:
-    print("A temperatura hoje está amena")
+    print('A temperatura hoje está amena')
 else:
-    print("Hoje está fazendo calor")
+    print('Hoje está fazendo calor')
